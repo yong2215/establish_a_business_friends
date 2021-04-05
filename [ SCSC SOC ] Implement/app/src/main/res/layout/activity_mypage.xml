@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MypageActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@color/title"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="130dp"
+                android:text="창업 프랜즈"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:textSize="25dp"
+                android:text="홈"
+                android:layout_marginLeft="70dp"
+                android:id="@+id/homeButton"
+                android:gravity="center"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="330dp"
+                android:layout_height="400dp"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                >
+
+                <TextView
+                    android:id="@+id/nameText"
+                    android:layout_width="280dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:background="@color/textBack"
+                    android:hint="Name"
+                    android:padding="10dp" />
+
+                <TextView
+                    android:id="@+id/idText"
+                    android:layout_width="280dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:background="@color/textBack"
+                    android:hint="ID"
+                    android:padding="10dp" />
+
+                <EditText
+                    android:layout_width="280dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:id="@+id/passwordText"
+                    android:layout_marginTop="30dp"
+                    android:hint="Password"
+                    android:background="@color/textBack" />
+
+                <EditText
+                    android:id="@+id/numberText"
+                    android:layout_width="280dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:hint="PhoneNumber"
+                    android:background="@color/textBack"
+                    android:padding="10dp" />
+
+                <EditText
+                    android:id="@+id/hintText"
+                    android:layout_width="280dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:hint="Hint"
+                    android:background="@color/textBack"
+                    android:padding="10dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                >
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:background="@color/textBack"
+                    android:text="수정"
+                    android:layout_gravity="center"
+                    android:id="@+id/editButton"
+                    android:layout_marginRight="40dp"
+                    />
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:background="@color/textBack"
+                    android:text="탈퇴"
+                    android:layout_gravity="center"
+                    android:id="@+id/outButton"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

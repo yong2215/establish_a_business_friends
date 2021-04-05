@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FindIdActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@color/title"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:text="창업 프랜즈"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:inputType="text"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+
+                android:hint="이름"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:id="@+id/nameText"
+                android:background="@color/textBack"
+                android:layout_marginTop="90dp"
+                />
+            <EditText
+                android:inputType="text"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:hint="전화번호"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:id="@+id/numberText"
+                android:background="@color/textBack"
+                android:layout_marginTop="40dp"
+                />
+            <EditText
+                android:inputType="text"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:hint="Hint"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:id="@+id/hintText"
+                android:background="@color/textBack"
+                android:layout_marginTop="40dp"
+                />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Search"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:background="@color/textBack"
+                android:id="@+id/searchButton"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

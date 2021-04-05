@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CategoryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@color/title"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="130dp"
+                android:text="창업 프랜즈"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/homeButton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="70dp"
+                android:gravity="center"
+                android:text="홈"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="400dp"
+                android:layout_height="90dp"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                >
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:text="피자"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:id="@+id/pizzaBtn"
+                    android:background="@drawable/btn_shape"
+                    />
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:textStyle="bold"
+                    android:text="치킨"
+                    android:textSize="25dp"
+                    android:id="@+id/chickenBtn"
+                    android:background="@drawable/btn_shape"
+                    />
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:textStyle="bold"
+                    android:text="카페"
+                    android:textSize="25dp"
+                    android:id="@+id/cafeBtn"
+                    android:background="@drawable/btn_shape"
+                    />
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:textStyle="bold"
+                    android:text="분식"
+                    android:textSize="25dp"
+                    android:id="@+id/flourBtn"
+                    android:background="@drawable/btn_shape"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="400dp"
+                android:layout_height="90dp"
+                android:orientation="horizontal"
+                android:layout_gravity = "center"
+                >
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:textStyle="bold"
+                    android:text="편의점"
+                    android:textSize="25dp"
+                    android:id="@+id/convBtn"
+                    android:background="@drawable/btn_shape"
+                    />
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:textStyle="bold"
+                    android:text="숙소"
+                    android:textSize="25dp"
+                    android:id="@+id/lodgingBtn"
+                    android:background="@drawable/btn_shape"
+                    />
+
+                <Button
+                    android:id="@+id/fastBtn"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/btn_shape"
+                    android:text="패스트푸드"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:textStyle="bold"
+                    android:text="주류"
+                    android:textSize="25dp"
+                    android:id="@+id/drinkBtn"
+                    android:background="@drawable/btn_shape"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            >
+
+            <ListView
+                android:id="@+id/db_list_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
